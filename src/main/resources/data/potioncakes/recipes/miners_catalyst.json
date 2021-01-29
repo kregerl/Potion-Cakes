@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ABC",
+		"DEF",
+		"GHI"
+	],
+	"key": {
+		"A": {
+			"tag": "forge:ores/diamond"
+		},
+		"B": {
+			"item": "minecraft:golden_carrot"
+		},
+		"C": {
+			"tag": "forge:ores/emerald"
+		},
+		"D": {
+			"tag": "forge:ores/redstone"
+		},
+		"E": {
+			"item": "minecraft:spectral_arrow"
+		},
+		"F": {
+			"tag": "forge:ores/lapis"
+		},
+		"G": {
+			"tag": "forge:ores/iron"
+		},
+		"H": {
+			"tag": "forge:ores/coal"
+		},
+		"I": {
+			"tag": "forge:ores/gold"
+		}
+	},
+	"result": {
+		"item": "potioncakes:miners_catalyst",
+		"count": 1
+	}
+}
+}

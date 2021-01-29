@@ -1,0 +1,36 @@
+{
+    "textures": {
+        "particle": "block/cake_side",
+        "bottom": "block/cake_bottom",
+        "top": "block/cake_top",
+        "side": "block/cake_side",
+        "inside": "potioncakes:block/cake_inner_crust",
+        "overlay": "potioncakes:block/cake_inner"
+    },
+    "elements": [
+        {   "from": [ 5, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        },
+        {	"from": [ 5, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+            	"down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#overlay", "tintindex": 1 },
+                "east":  { "texture": "#side" }
+            }
+        
+        
+        }
+    ]
+}
